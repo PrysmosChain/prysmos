@@ -2,5 +2,11 @@
 name = "prysmos"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0"
+categories = ["blockchain"]
+description = "A fast blockchain in Rust."
+keywords = ["blockchain", "rust"]
+repository = "https://github.com/PrysmosChain/prysmos"
 
 [dependencies]
+tokio = { version = "1.40.0", features = ["full"] }
